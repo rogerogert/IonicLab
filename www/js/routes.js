@@ -12,5 +12,10 @@ angular.module('starter')
       templateUrl: 'templates/carroescolhido.html',
       controller: 'CarroEscolhidoController'
     })
+    .state('finalizarpedido',{
+      url : '/finalizarpedido/:carro',
+      templateUrl : 'templates/finalizarpedido.html',
+      controller : 'FinalizarPedidoController'
+    })
 
 });
